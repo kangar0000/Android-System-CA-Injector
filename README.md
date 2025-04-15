@@ -10,14 +10,6 @@ This module makes that process **persistent** by automatically re-injecting cert
 
 ---
 
-### ⚠️ Notes
-
-- All certificates in the user store (`/data/misc/user/0/cacerts-added/`) will be injected — make sure they are trusted
-- If multiple certs share the same hash (e.g. `.0`, `.1`), only the latest version is kept
-- You can add multiple certificates at once
-
----
-
 ## ✅ Requirements
 
 - Android 14 and above
@@ -49,5 +41,13 @@ reboot
   ```
   cat /data/local/tmp/auto-ca.log
   ```
+
+---
+
+### ⚠️ Notes
+
+- All certificates in the user store (`/data/misc/user/0/cacerts-added/`) will be injected — make sure they are trusted
+- If multiple certs share the same hash (e.g. `.0`, `.1`), only the latest version is kept
+- You can add multiple certificates at once
 
 ---

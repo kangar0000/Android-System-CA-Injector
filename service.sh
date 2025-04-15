@@ -1,6 +1,7 @@
 #!/system/bin/sh
 MODDIR=${0%/*}
-LOG_FILE="/cache/magisk.log"
+# LOG_FILE="/cache/magisk.log"
+LOG_FILE="/data/local/tmp/auto-ca.log"
 
 exec > "$LOG_FILE" 2>&1
 set -x
