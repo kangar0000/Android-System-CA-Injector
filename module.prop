@@ -1,0 +1,6 @@
+id=auto-ca-inject
+name=System CA Auto-Injector
+version=1.0
+versionCode=1
+author=kangaroo
+description=Inject custom CA cert into system store with Conscrypt binding on boot
