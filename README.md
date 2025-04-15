@@ -1,6 +1,6 @@
 # Android System CA Injector (Magisk Module)
 
-A simple Magisk module that injects user-added CA certificates into the system trust store on Android 14 and 15.
+A simple Magisk module that injects user-added CA certificates into the system trust store on Android 14 and above.
 
 This project is based entirely on the work by Tim Perry, who documented how Android 14 changed system certificate handling:  
 👉 https://httptoolkit.com/blog/android-14-install-system-ca-certificate/#how-to-install-system-ca-certificates-in-android-14
